@@ -10,6 +10,7 @@ void Graph::createVertex(int value)
 
 void Graph::createUnorientedEdge(int value1, int value2)
 {
+
     // Linear complexity -> SOLVE!!!
     Vertex* vertex1 = nullptr;
     Vertex* vertex2 = nullptr;
