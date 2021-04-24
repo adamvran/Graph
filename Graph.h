@@ -1,25 +1,8 @@
-#include <map>
-#include <vector>
-using namespace std;
-class Graph
-{
-private:
-    class Vertex
-    {
-    public:
-        int id;
-        int value;
-        int color = 0;
+//
+// Created by Adam Vrána on 24.04.2021.
+//
 
-        vector<Vertex*> neighbors;
+#ifndef GRAPH_GRAPH_H
+#define GRAPH_GRAPH_H
 
-        Vertex(int id, int value):id(id), value(value){}
-    };
-    map<int, Vertex*> vertexMap;
-    int currentId = 0;
-public:
-    void createVertex(int value);
-    void createUnorientedEdge(int value1, int value2);
-    void print();
-    int breadthFirstSearch(int value);
-};
+#endif //GRAPH_GRAPH_H
