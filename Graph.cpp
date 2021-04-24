@@ -10,14 +10,6 @@ void Graph::createVertex(int value)
 
 void Graph::createUnorientedEdge(int value1, int value2)
 {
-    /*for (int i = 0; i < vertexMap.size(); ++i)
-    {
-        if (vertexMap[i]->value == value1)
-        {
-
-        }
-    }*/
-
     // Linear complexity -> SOLVE!!!
     Vertex* vertex1 = nullptr;
     Vertex* vertex2 = nullptr;
